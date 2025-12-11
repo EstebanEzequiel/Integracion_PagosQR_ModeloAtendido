@@ -1,8 +1,17 @@
-Middleware de Pagos QR | DLR Software (2021)
+Integración de Pagos QR - Mariano Max
 
-Colabore en el desarrollo de un servicio web API REST utilizando Node.js para orquestar transacciones entre los cajeros de la cadena Mariano Max y la pasarela de pagos.
+Rol: Desarrollador Backend (Pasantía en DLR Software).
 
-Realicé la integración End-to-End de la API de Mercado Pago (Modelo Atendido), permitiendo la generación y validación de cobros QR en tiempo real.
+Tecnologías: JavaScript (ES6+), Node.js, Express.js, API REST, Integración de Terceros.
 
-El impacto: Modernización del sistema de cobro en sucursales, habilitando un nuevo método de pago digital ágil y seguro.
+Resumen: Middleware desarrollado para conectar cajeros de supermercado con Mercado Pago.
 
+Desafío Técnico: Implementación del "Modelo Atendido" de Mercado Pago, gestionando la creación de órdenes y la escucha de notificaciones de estado (Webhooks/Polling) para confirmar pagos en el acto.
+
+Detalles de Implementación:
+
+  1- Creación de servidor con Express para manejo de rutas y middlewares.
+  
+  2- Consumo de la API de Mercado Pago para generar órdenes de pago QR.
+  
+  3- Gestión de lógica asíncrona para validación de transacciones en el punto de venta.
