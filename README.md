@@ -10,8 +10,8 @@ Desafío Técnico: Implementación del "Modelo Atendido" de Mercado Pago, gestio
 
 Detalles de Implementación:
 
-  1- Creación de servidor con Express para manejo de rutas y middlewares.
+    1- Creación de servidor con Express para manejo de rutas y middlewares.
   
-  2- Consumo de la API de Mercado Pago para generar órdenes de pago QR.
+    2- Consumo de la API de Mercado Pago para generar órdenes de pago QR.
   
-  3- Gestión de lógica asíncrona para validación de transacciones en el punto de venta.
+    3- Gestión de lógica asíncrona para validación de transacciones en el punto de venta.
